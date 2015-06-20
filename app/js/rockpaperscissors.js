@@ -54,6 +54,8 @@ function getWinner(playerMove,computerMove) {
     return winner;
 }
 
+getWinner("rock", "scissors")
+
 /* This function sets two variables, playerWins and computerWins, to 0, and increments them by 1 in a while loop (which runs until either playerWins or computerWins is 5.
 playerMove and computerMove are pulled from the getPlayerMove() and getComputerMove() functions, respectively.
 A variable, winner, is pulled from the getWinner function, which determines the winner based on the results of the getPlayerMove() and getComputerMove() functions. 
@@ -124,4 +126,4 @@ function playTo(x) {
     }   
     return [playerWins, computerWins];
 }
-playTo(2);
+
